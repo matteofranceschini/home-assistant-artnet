@@ -1,8 +1,8 @@
 {
-  "domain": "light",
+  "domain": "artnet",
   "name": "Artnet Integration",
   "documentation": "https://github.com/spacemanspiff2007/home-assistant-artnet/blob/master/README.md",
   "dependencies": [],
   "codeowners": ["@spacemanspiff2007"],
-  "requirements": []
+  "requirements": ["pyartnet==0.5.0"]
 }
