@@ -1,9 +1,17 @@
 # home-assistant-artnet
 Artnet integration for home-assistant
 
+### Prerequisites
+It needs the PyArtnet module:
+```
+git clone https://github.com/spacemanspiff2007/PyArtNet.git
+pip install -e PyArtNet/
+
+```
+
 ### Usage
-Download [artnet.py](https://github.com/spacemanspiff2007/home-assistant-artnet/blob/master/artnet.py) and put it in the *'custom_components/light'* directory.
-If there is no *'custom_components'* folder next to your *configuration.yaml* just create it with a subfolder *'light'*.
+Download *light.py* and put it in the *'custom_components/artnet'* directory.
+If there is no *'custom_components'* folder next to your *configuration.yaml* just create it with a subfolder *'artnet'*.
 
 ### Configuration
 Add the following config to your ``` light: ``` configuration
